@@ -89,6 +89,14 @@ This structure enables comprehensive analysis of business data
 ## **Dashboard Performance Analytics**
 #### **Sales Performance Dashboard 2020--2023 (General)**
 ![image](https://github.com/kevinhaposan/PBI-Kimia-Farma/assets/156397084/e794e9fe-a006-4620-a3cb-12073988ac5f) <br>
+
 Net profit and net sales are highest in West Java. The branch with the highest rating but the lowest transaction rating is located in branch_id 82157 in Tarakan city, North Kalimantan.
 
 Overall, the lowest sales occurred in 2021. This could be attributed to Indonesians staying at home during the pandemic and the declining economy, leading them to prioritize purchasing groceries over medications. Then, there was a surge in 2022, possibly indicating increased outdoor activities. This could be a driving factor for the surge in sales of items like vitamins, as people strive to maintain their health.
+
+#### **Sales Performance Dashboard 2020--2023 (Based on City)**
+![image](https://github.com/kevinhaposan/PBI-Kimia-Farma/assets/156397084/c273f4fe-d989-4716-b5d1-68442456ef2f)<br>
+
+This dashboard is provided to enhance sales in specific provinces, particularly cities with relatively low sales. By examining cities or provinces with low net sales or net profit, we can develop marketing strategies. For example, South Sumatra has a net sales of 2 million. South Sumatra primarily engages in the agriculture, forestry, and fisheries sectors. This can be a strategy whereby providing bundle products for workers in these sectors, such as general medications to alleviate common symptoms like muscle pain or headache, calcium supplements and vitamin D to maintain bone health, and vitamins and supplements to maintain health and stamina.
+
+This approach aims to tailor our marketing efforts to the specific needs of workers in these sectors, ultimately driving sales and fostering stronger relationships with our customers.
