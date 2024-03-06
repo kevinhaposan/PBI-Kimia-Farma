@@ -87,6 +87,8 @@ After creating the two CTEs, a primary query was formulated to extract the neces
 This structure enables comprehensive analysis of business data
 
 ## **Dashboard Performance Analytics**
+[Sales Performance Dashboard](https://lookerstudio.google.com/reporting/8f89e0ca-a5b8-454f-9bd4-8845c374bd6c)
+
 #### **Sales Performance Dashboard 2020--2023 (General)**
 ![image](https://github.com/kevinhaposan/PBI-Kimia-Farma/assets/156397084/e794e9fe-a006-4620-a3cb-12073988ac5f) <br>
 
