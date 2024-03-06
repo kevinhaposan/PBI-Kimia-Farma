@@ -85,3 +85,10 @@ tmp1.nett_sales * tmp1.persentase_gross_laba
 After creating the two CTEs, a primary query was formulated to extract the necessary columns for business analysis. These columns include 'transaction_id', 'date', 'branch_id', 'branch_name', 'kota', etc. (as specified in the SELECT section of the SQL script). The 'kf_final_transaction' serves as the main table and fact table, while three additional tables and two CTEs are joined using the specified join keys.
 
 This structure enables comprehensive analysis of business data
+
+## **Dashboard Performance Analytics**
+#### **Sales Performance Dashboard 2020--2023 (General)**
+![image](https://github.com/kevinhaposan/PBI-Kimia-Farma/assets/156397084/e794e9fe-a006-4620-a3cb-12073988ac5f) <br>
+Net profit and net sales are highest in West Java. The branch with the highest rating but the lowest transaction rating is located in branch_id 82157 in Tarakan city, North Kalimantan.
+
+Overall, the lowest sales occurred in 2021. This could be attributed to Indonesians staying at home during the pandemic and the declining economy, leading them to prioritize purchasing groceries over medications. Then, there was a surge in 2022, possibly indicating increased outdoor activities. This could be a driving factor for the surge in sales of items like vitamins, as people strive to maintain their health.
