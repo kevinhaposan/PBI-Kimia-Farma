@@ -96,6 +96,10 @@ Net profit and net sales are highest in West Java. The branch with the highest r
 
 Overall, the lowest sales occurred in 2021. This could be attributed to Indonesians staying at home during the pandemic and the declining economy, leading them to prioritize purchasing groceries over medications. Then, there was a surge in 2022, possibly indicating increased outdoor activities. This could be a driving factor for the surge in sales of items like vitamins, as people strive to maintain their health.
 
+The thickness of the color shading on Indonesia's Geo Map indicates the magnitude of net profit in each province. The thicker the point, the higher the net profit. For example, West Java has a net profit of 26.9 million, while North Maluku has a net profit of 1.2 million, resulting in a thicker color shading in West Java compared to the more faded shading in North Maluku.
+
+This visualization provides a clear representation of the distribution of net profits across different provinces, allowing for effective analysis and decision-making in sales strategies and resource allocation.
+
 #### **Sales Performance Dashboard 2020--2023 (Based on City)**
 ![image](https://github.com/kevinhaposan/PBI-Kimia-Farma/assets/156397084/c273f4fe-d989-4716-b5d1-68442456ef2f)<br>
 
