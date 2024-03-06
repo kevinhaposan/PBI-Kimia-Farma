@@ -19,3 +19,6 @@ In this section, I named the project segment as Rakamin-KF-Analytics. As for the
 In a schema, there is a **fact table** that acts as the main table and **dimensional tables** that support the fact table. In this project, **kf_final_transaction acts as the fact table**. The tables acting as **dimensional tables are kf_kantor_cabang, kf_inventory, and kf_product**.
 
 In kf_final_transaction, there is a column named transaction_id, which acts as the identifier for rows in the table. The kf_final_transaction table has branch_id and product_id columns, which will function as the join keys to the dimensional tables. The branch_id column in kf_final_transaction will join with the branch_id column in the kf_kantor_cabang table. The product_id column in the kf_final_transaction table will join with the product_id column in both the kf_product and kf_inventory tables.
+
+This data clearly originated from duplicates and null values
+
