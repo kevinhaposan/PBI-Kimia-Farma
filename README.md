@@ -22,3 +22,5 @@ In kf_final_transaction, there is a column named transaction_id, which acts as t
 
 This data clearly originated from duplicates and null values
 
+## **BigQuery Syntax**
+https://github.com/kevinhaposan/PBI-Kimia-Farma/blob/ab246fa6331c12192817250828bfb522f9a710cd/Query%20SQL%20Final%20Task.txt
