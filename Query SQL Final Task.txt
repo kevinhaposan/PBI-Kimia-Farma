@@ -1,0 +1,50 @@
+WITH tmp1 AS (
+  SELECT ft.transaction_id,
+         ft.price,
+         ft.discount_percentage,
+         CASE
+          WHEN ft.price <= 50000 THEN 0.05
+          WHEN ft.price <= 100000 THEN 0.15
+          WHEN ft.price <= 300000 THEN 0.20
+          WHEN ft.price <= 500000 THEN 0.25
+          ELSE 0.30
+        END AS persentase_gross_laba,
+        (ft.price - (ft.price * ft.discount_percentage)) AS nett_sales,
+  FROM `kimia_farma.kf_final_transaction`AS ft
+),
+
+tmp2 AS (
+  SELECT tmp1.transaction_id,
+         tmp1.nett_sales,
+         tmp1.persentase_gross_laba,
+         (tmp1.nett_sales*(tmp1.persentase_gross_laba)) AS nett_profit
+  FROM tmp1
+)
+
+SELECT ft.transaction_id,
+       ft.date,
+       ft.branch_id,
+       kc.branch_name,
+       kc.kota,
+       kc.provinsi,
+       kc.rating AS rating_cabang,
+       ft.customer_name,
+       ft.product_id,
+       inv.product_name,
+       pro.price AS actual_price,
+       ft.discount_percentage,
+       tmp1.persentase_gross_laba,
+       tmp1.nett_sales,
+       tmp2.nett_profit,
+       ft.rating AS rating_transaksi
+FROM `kimia_farma.kf_final_transaction`AS ft
+LEFT JOIN `kimia_farma.kf_kantor_cabang`AS kc
+      ON ft.branch_id = kc.branch_id
+LEFT JOIN `kimia_farma.kf_inventory`AS inv
+      ON  ft.product_id = inv.product_id
+LEFT JOIN kimia_farma.kf_product AS pro
+      ON ft.product_id = pro.product_id
+LEFT JOIN tmp1
+      ON ft.transaction_id = tmp1.transaction_id
+LEFT JOIN tmp2
+      ON ft.transaction_id = tmp2.transaction_id
